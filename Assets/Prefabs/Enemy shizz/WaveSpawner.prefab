@@ -1,0 +1,88 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8440197784222491335
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8440197784222491333}
+  - component: {fileID: 8440197784222491334}
+  m_Layer: 0
+  m_Name: WaveSpawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8440197784222491333
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8440197784222491335}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 4.3802643, y: -0.89250374, z: -606.25}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8440197784222491334
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8440197784222491335}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a203940ed4f9b0c4197b4f3f87425596, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  waves:
+  - name: Wave 1
+    normalZombie: {fileID: 5923931195318944677, guid: d272aa8a37a00584285da57219096b3e,
+      type: 3}
+    babyZombie: {fileID: 2596991708887310853, guid: f7b2a388add89554b97d1241afd95611,
+      type: 3}
+    boss: {fileID: 8426708073529982220, guid: 48e08968afaec2649872bdbf05b8e195, type: 3}
+    amount: 3
+    rate: 1
+  - name: Wave 2
+    normalZombie: {fileID: 5923931195318944677, guid: d272aa8a37a00584285da57219096b3e,
+      type: 3}
+    babyZombie: {fileID: 2596991708887310853, guid: f7b2a388add89554b97d1241afd95611,
+      type: 3}
+    boss: {fileID: 8426708073529982220, guid: 48e08968afaec2649872bdbf05b8e195, type: 3}
+    amount: 5
+    rate: 1
+  - name: Wave 3
+    normalZombie: {fileID: 5923931195318944677, guid: d272aa8a37a00584285da57219096b3e,
+      type: 3}
+    babyZombie: {fileID: 2596991708887310853, guid: f7b2a388add89554b97d1241afd95611,
+      type: 3}
+    boss: {fileID: 8426708073529982220, guid: 48e08968afaec2649872bdbf05b8e195, type: 3}
+    amount: 7
+    rate: 1
+  - name: Wave 4
+    normalZombie: {fileID: 5923931195318944677, guid: d272aa8a37a00584285da57219096b3e,
+      type: 3}
+    babyZombie: {fileID: 2596991708887310853, guid: f7b2a388add89554b97d1241afd95611,
+      type: 3}
+    boss: {fileID: 8426708073529982220, guid: 48e08968afaec2649872bdbf05b8e195, type: 3}
+    amount: 9
+    rate: 1
+  timeBetweenWaves: 15
+  waveCountdown: 0
+  spawnPoints:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  state: 2
